@@ -1,0 +1,18 @@
+<input [(ngModel)]="num1">
++
+<input [(ngModel)]="num2">
+=
+<span>{{getResult()}}</span>
+
+<div>
+  <button (click)="calc()">Calc</button>
+</div>
+
+<div>{{title}}</div>
+
+<div [innerHTML]="title"></div>
+
+<div [ngClass]="{large: isLarge}">
+  DIV with classes <button (click)="change($event)">Change</button>
+</div>
+

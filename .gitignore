@@ -1,2 +1,4 @@
 node_modules
 .idea
+/samples/**/src/app/*.js
+/samples/**/src/app/*.js.map
