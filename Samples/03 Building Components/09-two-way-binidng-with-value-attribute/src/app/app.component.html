@@ -1,0 +1,9 @@
+<h1>{{text}}</h1>
+
+<!--<input [(value)]="name">-->
+
+<input [value]="name" (valueChange)="name=$event">
+
+<button (click)="dump()">Dump</button>
+
+

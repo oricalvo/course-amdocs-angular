@@ -1,0 +1,11 @@
+<div>
+    <button (click)="smaller()">-</button>
+    <button (click)="larger()">+</button>
+</div>
+
+<div [ngSwitch]="page">
+    <div    *ngSwitchCase="'Small'">Small</div>
+    <div    *ngSwitchCase="'Normal'">Normal</div>
+    <div    *ngSwitchCase="'Large'">Large</div>
+    <div  *ngSwitchDefault>Default</div>
+</div>
