@@ -1,0 +1,11 @@
+<h1>Contact Index</h1>
+
+<div>
+  <button (click)="refresh()">Refresh</button>
+</div>
+
+<ul>
+  <li *ngFor="let contact of contacts">
+    <span>{{contact.name}}</span>
+  </li>
+</ul>
