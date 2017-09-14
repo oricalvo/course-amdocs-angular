@@ -1,6 +1,5 @@
 import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
 import {Directory, Item} from "../../common/appState";
-import {AppService} from "../../services/app.service";
 
 @Component({
   selector: 'app-directory-explorer',
@@ -12,14 +11,15 @@ export class DirectoryExplorerComponent {
 
   @Output() itemClicked: EventEmitter<Item> = new EventEmitter<Item>();
 
-  constructor(private appService: AppService) {
-  }
-
   onItemClicked(item: Item) {
     this.itemClicked.emit(item);
   }
 
   get hasParent() {
     return this.directory.parent != null;
+  }
+
+  onGotoParent() {
+
   }
 }
