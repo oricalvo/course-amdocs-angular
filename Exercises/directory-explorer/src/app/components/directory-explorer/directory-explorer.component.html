@@ -1,0 +1,13 @@
+<h1>{{directory.path}}</h1>
+
+<ul>
+  <li *ngIf="hasParent" (click)="gotoParent()" class="dir">
+    [..]
+  </li>
+
+  <li *ngFor="let item of directory.items"
+      (click)="onItemClicked(item)"
+      [ngClass]="{dir: item.type=='dir', file: item.type=='file' }">
+    <span>{{item.name}}</span>
+  </li>
+</ul>

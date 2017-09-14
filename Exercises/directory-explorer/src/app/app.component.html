@@ -1,0 +1,7 @@
+<div *ngIf="!directory">
+    Loading ...
+</div>
+
+<app-directory-explorer [directory]="directory"
+                        *ngIf="!!directory"
+                        (itemClicked)="onItemClicked($event)"></app-directory-explorer>

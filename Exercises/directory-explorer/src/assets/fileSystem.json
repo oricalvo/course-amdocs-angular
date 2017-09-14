@@ -1,0 +1,53 @@
+{
+  "name": "~",
+  "path": "~",
+  "items": [
+    {
+      "name": "Amdocs",
+      "items": [],
+      "parent": null,
+      "type": "dir"
+    },
+    {
+      "name": "Cmder",
+      "items": [],
+      "parent": null,
+      "type": "dir"
+    },
+    {
+      "name": "Program Files",
+      "type": "dir",
+      "parent": null,
+      "items": [
+        {
+          "name": "Web Storm",
+          "items": [],
+          "parent": null,
+          "type": "dir"
+        },
+        {
+          "name": "NodeJS",
+          "items": [],
+          "parent": null,
+          "type": "dir"
+        },
+        {
+          "name": "Yarn",
+          "items": [],
+          "parent": null,
+          "type": "dir"
+        }
+      ]
+    },
+    {
+      "name": "1.txt",
+      "type": "file"
+    },
+    {
+      "name": "2.txt",
+      "type": "file"
+    }
+  ],
+  "type": "dir",
+  "parent": null
+}
