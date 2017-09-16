@@ -1,0 +1,7 @@
+node_modules
+**/app/*.js
+**/app/*.js.map
+**/build/*.js
+**/build/*.js.map
+**/server/*.js
+**/server/*.js.map

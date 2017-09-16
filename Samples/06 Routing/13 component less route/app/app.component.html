@@ -1,0 +1,8 @@
+<div class="site-menu">
+    <a routerLink="">Home</a>
+
+    <a [routerLink]="['/admin']">Admin</a>
+    <button (click)="gotoAdmin()">Admin</button>
+</div>
+
+<router-outlet></router-outlet>
