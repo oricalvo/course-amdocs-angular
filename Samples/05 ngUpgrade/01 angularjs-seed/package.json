@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@types/angular": "^1.6.32",
+    "angular": "^1.6.6",
+    "raw-loader": "^0.5.1",
+    "typescript": "^2.5.2"
+  }
+}
