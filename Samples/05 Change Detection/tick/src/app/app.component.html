@@ -1,0 +1,13 @@
+<button (click)="run()">Click me</button>
+
+<div>
+  {{counter}}
+</div>
+
+<ul>
+  <li *ngFor="let num of nums">
+    <span>{{num}}</span>
+  </li>
+</ul>
+
+<app-clock *ngIf="showClock"></app-clock>

@@ -1,0 +1,9 @@
+<h1>Hello AngularJS</h1>
+
+<app-clock (on-tick)="$ctrl.onClockTick()"></app-clock>
+
+<ul>
+    <li ng-repeat="contact in $ctrl.contacts">
+        <span>{{contact.name}}</span>
+    </li>
+</ul>
