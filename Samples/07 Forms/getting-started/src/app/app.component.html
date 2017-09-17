@@ -1,0 +1,26 @@
+<form #form="ngForm">
+  <div class="field">
+    <div>Name:</div>
+    <div>
+      <input #nameControl="ngModel"
+             name="name"
+             [(ngModel)]="name" required>
+
+      <span *ngIf="nameControl.dirty && !nameControl.valid && nameControl.errors.required"
+            class="validation-error">Name is missing</span>
+    </div>
+  </div>
+
+  <div class="field">
+    <div>E-Mail:</div>
+    <div>
+      <input name="email" [(ngModel)]="email">
+    </div>
+  </div>
+
+  <div class="buttons">
+    <button (click)="add()">Add</button>
+  </div>
+</form>
+
+

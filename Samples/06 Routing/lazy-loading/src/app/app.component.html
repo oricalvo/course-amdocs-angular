@@ -1,0 +1,9 @@
+<h1>My App</h1>
+
+<div>
+  <a routerLink="">Home</a>
+  <a routerLink="admin">Admin</a>
+  <a [routerLink]="['admin', 123, {name: 'Ori'}]">Admin</a>
+</div>
+
+<router-outlet></router-outlet>

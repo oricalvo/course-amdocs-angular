@@ -1,5 +1,8 @@
-import {appModule} from "./app.module";
+import {Service} from "./annotations";
 
+@Service({
+    name: "appService",
+})
 export class AppService {
     contacts: Contact[];
 
@@ -12,8 +15,6 @@ export class AppService {
         ];
     }
 }
-
-appModule.service("appService", AppService);
 
 export interface Contact {
     id: number;

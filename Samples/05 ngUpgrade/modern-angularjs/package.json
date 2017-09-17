@@ -4,6 +4,7 @@
     "angular": "^1.6.6",
     "css-loader": "^0.28.7",
     "raw-loader": "^0.5.1",
+    "reflect-metadata": "^0.1.10",
     "style-loader": "^0.18.2",
     "ts-loader": "^2.3.7",
     "typescript": "^2.5.2",

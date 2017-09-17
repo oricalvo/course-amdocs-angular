@@ -1,0 +1,15 @@
+input {
+  outline: none;
+}
+
+input.ng-dirty.ng-invalid {
+  outline: 1px solid red;
+}
+
+.field {
+  margin-bottom: 1em;
+}
+
+.validation-error {
+  color: red;
+}

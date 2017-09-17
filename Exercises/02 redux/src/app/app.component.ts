@@ -9,7 +9,12 @@ import {AppActions} from "./services/app.actions";
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  counter = 1000;
+
   constructor(private appActions: AppActions) {
+    setTimeout(() => {
+      this.counter = 2000;
+    }, 2000);
   }
 
   get state(): AppState {
